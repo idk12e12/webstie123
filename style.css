@@ -1,1 +1,69 @@
-
+body{
+    background:linear-gradient(#a60808, #000000);
+  }
+  ul {
+    list-style-type: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   
+  
+  }
+  
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:black;
+  }
+  
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  
+  
+  ul {
+    position:none;
+    top: 0;
+    width: 100%;
+  }
+  
+  
+  
+  
+  .link{
+      color:crimson;
+      display: inline;
+      padding-top:5px;
+      padding-left:9px;
+      padding-right:9px;
+      padding-bottom: 5px;
+  }
+     .link:hover{
+      background-color:beige;
+  } 
+  a{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  h1{
+    text-align:center;
+    color:white;
+    font-family:ubuntu,sans-serif;
+  }
+    h2{
+      Text-align:center;
+      color:white;
+      font-family:ubuntu,sans-serif;
+    }
